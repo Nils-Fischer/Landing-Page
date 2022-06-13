@@ -4,7 +4,13 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   flex-direction: column;
-  padding: 0px 100px;
+  margin: 0px;
+  gap: 20px;
+}
+
+img {
+  flex: 2;
+  overflow: auto;
 }
 
 a {
@@ -23,6 +29,7 @@ button {
   height: 40px;
   width: 150px;
   border-radius: 8px;
+  margin: 10px 0px;
 }
 
 .header {
@@ -30,6 +37,7 @@ button {
   justify-content: space-between;
   align-items: center;
   color: #f9faf8;
+  margin: 15px 100px;
 }
 
 .Header-Links {
@@ -41,12 +49,15 @@ button {
   margin: 70px 0px;
   color: #f9faf8;
   display: flex;
+  margin: 15px 100px;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex: 1;
+  overflow: auto;
 }
 
 .Main-text {
@@ -57,4 +68,38 @@ button {
 .Secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.Content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 0px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.inf-header {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.images-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.image {
+  font-family: "Bahnschrift", sans-serif;
+  color: slategray;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 300px;
+  align-items: center;
+  gap: 10px;
 }
