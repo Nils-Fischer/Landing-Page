@@ -76,13 +76,14 @@ button {
   flex-direction: column;
   background-color: white;
   margin: 0px;
-  padding: 20px;
+  padding: 100px 0px;
   gap: 20px;
 }
 
 .inf-header {
-  font-size: 36px;
-  font-weight: bolder;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 .images-text {
@@ -102,4 +103,27 @@ button {
   max-height: 300px;
   align-items: center;
   gap: 10px;
+}
+
+.Quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  width: 100%;
+  padding: 200px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  gap: 20px;
+}
+
+#credit {
+  width: 40%;
+  font-size: 22px;
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
 }
