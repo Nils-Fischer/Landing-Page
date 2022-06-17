@@ -51,7 +51,7 @@ button {
   color: #f9faf8;
   display: flex;
   margin: 15px 100px;
-  gap: 20px;
+  gap: 50px;
 }
 
 .hero-container {
@@ -138,7 +138,7 @@ button {
   border-radius: 5px;
   padding: 30px 80px;
   color: white;
-  gap: 700px;
+  gap: 500px;
   justify-content: space-between;
   align-items: center;
 }
