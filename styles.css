@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   margin: 0px;
   gap: 10px;
+  height: 100vh;
 }
 
 img {
@@ -145,4 +146,14 @@ button {
 .banner-container {
   display: flex;
   flex-direction: column;
+}
+
+.Footer {
+  display: flex;
+  min-height: 50px;
+  margin-top: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
